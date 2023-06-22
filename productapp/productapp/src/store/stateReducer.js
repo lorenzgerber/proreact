@@ -8,7 +8,7 @@ export default function(storeData, action){
             return {
                 ...storeData,
                 editing: true,
-                selectId: action.type === STATE_START_EDITING
+                selectedId: action.type === STATE_START_EDITING
                     ? action.payload.id : -1,
                 selectedType: action.dataType
             }

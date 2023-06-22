@@ -12,7 +12,7 @@ export const initialData = {
     },
     stateData: {
         editing: false,
-        selectId: -1,
+        selectedId: -1,
         selectedType: PRODUCTS
     }
     
